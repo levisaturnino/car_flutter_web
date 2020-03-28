@@ -21,6 +21,10 @@ dependencies:
     sdk: flutter
   font_awesome_flutter: ^8.8.0
   provider: ^3.1.0
+  http: ^0.12.0+4
+  chewie:
+    git:
+      url: https://github.com/masewo/chewie.git
 
 
   # The following adds the Cupertino Icons font to your application.

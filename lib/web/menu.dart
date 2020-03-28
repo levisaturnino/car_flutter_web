@@ -50,7 +50,7 @@ class Menu extends StatefulWidget {
         child: InkWell(
           onTap: (){
           AppModel app = Provider.of<AppModel>(context,listen: false);
-          app.setPage(item.page);
+          app.push(item.page);
           setState(() {
             menus.forEach((element) { element.selected = false;});
 
